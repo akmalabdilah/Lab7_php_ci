@@ -19,7 +19,7 @@
 
 <hr>
 
-**Praktikum 12: Framework Lanjutan (CRUD)**
+**Praktikum 8 : Framework Lanjutan (CRUD)**
 
 **Pemrograman Web: Framework Lanjutan (CRUD)**
 
