@@ -1,5 +1,21 @@
 
-# TUGAS PERTEMUAN 12
+# Pemograman Web2 Pertemuan 10
+
+## Profil
+| #               | Biodata                      |
+| --------------- | ---------------------------- |
+| **Nama**        | M. AKMAL AL ABDILAH          |
+| **NIM**         | 312110034                    |
+| **Kelas**       | TI.21.A.1                    |
+| **Mata Kuliah** | Pemrograman Web 2            |
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/91085882/137566814-9c8c078c-1c3e-475c-b23d-7f4922f74beb.gif"/>
+</p>
+<p align="center">
+<a href="https://github.com/akmalabdilah"><img title="Author" src="https://img.shields.io/discord/102860784329052160?color=BLUE&label=M.%20AKMAL%20AL%20ABDILAH1&logo=GITHUB&logoColor=BLACK&style=plastic"></a>
+<p align="center">
+
 
 <hr>
 
@@ -11,7 +27,7 @@
 
 **Instruksi Praktikum**
 1. Persiapkan text editor misalnya **VSCode**.
-2. Buka kembali folder dengan nama **lab11_php_ci** pada docroot webserver **(htdocs)**
+2. Buka kembali folder dengan nama **lab7_php_ci** pada docroot webserver **(htdocs)**
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.<br>
 
 **Langkah-langkah Praktikum
@@ -482,13 +498,7 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel/edit/1
 
 Gambar 55.Edit_artikel
 
-![11_Lab11Web](Gambar/62.Gambar_Tampilan_edit_artikel-2.jpg)
 
-Gambar 56.Tampilan_edit_artikel
-
-![11_Lab11Web](Gambar/62.Gambar_Tampilan_edit_artikel-3.jpg)
-
-Gambar 57.Tampilan_Portal Berita_edit_artikel pertama
 
 **`Hapus Artikel`**
 
@@ -502,9 +512,11 @@ Gambar 58.Hapus_artikel
 
 Gambar 59.Tampilan_Hapus_artikel
 
-![11_Lab11Web](Gambar/63.Gambar_Tampilan_hapus-2.jpg)
 
-Gambar 60.Tampilan_Portal Berita_Hapus_artikel ketiga
+- Selesai
 
-<hr>
 
+<div>
+<h2 align="center">Thanks For Reading!!!</h2>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/91085882/222731693-24383140-7623-4e7a-a528-6621380b7be8.gif">
