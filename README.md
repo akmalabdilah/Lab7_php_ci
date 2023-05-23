@@ -47,7 +47,7 @@ CREATE DATABASE lab_ci4;
 ```
 ![11_Lab11Web](Gambar/30.Gambar_CREATE_DATABASE_lab_ci4.jpg)
 
-Gambar 28.CREATE DATABASE
+Gambar 1.CREATE DATABASE
 
 **`Membuat Tabel`**
 ```
@@ -63,7 +63,7 @@ PRIMARY KEY(id)
 ```
 ![11_Lab11Web](Gambar/31.Gambar_Membuat_Tabel.jpg)
 
-Gambar 29.Membuat Tabel
+Gambar 2.Membuat Tabel
 
 ![11_Lab11Web](Gambar/32.Gambar_Membuat_Tabel_Struktur.jpg)
 
@@ -75,7 +75,7 @@ atau menggunakan file **.env**. Pada praktikum ini kita gunakan konfigurasi pada
 
 ![11_Lab11Web](Gambar/33.Gambar_Konfigurasi_Database.env.jpg)
 
-Gambar 30.Konfigurasi Database
+Gambar 3.Konfigurasi Database
 
 **`Membuat Model`**
 
@@ -95,7 +95,7 @@ protected $allowedFields = ['judul', 'isi', 'status', 'slug', 'gambar'];
 ```
 ![11_Lab11Web](Gambar/34.Gambar_ArtikelModel.php.jpg)
 
-Gambar 31.ArtikelModel.php
+Gambar 4.ArtikelModel.php
 
 **`Membuat Controller`**
 
@@ -117,7 +117,7 @@ class Artikel extends BaseController
 ```
 ![11_Lab11Web](Gambar/35.Gambar_Artikel.php.jpg)
 
-Gambar 32.Artikel.php
+Gambar 5.Artikel.php
 
 **`Membuat View`**
 
@@ -143,13 +143,13 @@ baru dengan nama ***index.php***.
 ```
 ![11_Lab11Web](Gambar/36.Gambar_index.php.jpg)
 
-Gambar 33.index.php
+Gambar 6.index.php
 
 Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
 
 ![11_Lab11Web](Gambar/38.Gambar_TampilanWeb.Artikel.jpg)
 
-Gambar 34.Tampilan Web.Artikel
+Gambar 7.Tampilan Web.Artikel
 
 Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada
 ***Database*** agar dapat ditampilkan datanya.
@@ -167,13 +167,13 @@ dari 2000 tahun.', 'artikel-kedua');
 ```
 ![11_Lab11Web](Gambar/39.Gambar_add_database.Artikel.jpg)
 
-Gambar 35.add database.Artikel
+Gambar 8.add database.Artikel
 
 Refresh kembali browser, sehingga akan ditampilkan hasilnya.
 
 ![11_Lab11Web](Gambar/40.Gambar_Tampilan_Artikel.jpg)
 
-Gambar 36.Tampilan Artikel
+Gambar 9.Tampilan Artikel
 
 **`Membuat Tampilan Detail Artikel`**
 
@@ -205,7 +205,7 @@ public function view($slug)
    ```
 ![11_Lab11Web](Gambar/41.Gambar_Controller_Artikel.jpg)
 
-Gambar 37.Controller_Artikel
+Gambar 10.Controller_Artikel
 
 **`Membuat View Detail`**
 
@@ -222,7 +222,7 @@ $artikel['judul']; ?>">
 ```
 ![11_Lab11Web](Gambar/42.Gambar_detail.php.jpg)
 
-Gambar 38.View detail.php
+Gambar 11.View detail.php
 
 **`Membuat Routing untuk artikel detail`**
 
@@ -233,13 +233,13 @@ $routes->get('/artikel/(:any)', 'Artikel::view/$1');
 ```
 ![11_Lab11Web](Gambar/37.Gambar_routes.Artikel.jpg)
 
-Gambar 39.routes.Artikel
+Gambar 12.routes.Artikel
 
 Refresh kembali browser, sehingga akan ditampilkan hasilnya.
 
 ![11_Lab11Web](Gambar/43.Gambar_Detail_Artikel.jpg)
 
-Gambar 40.Detail Artikel
+Gambar 13.Detail Artikel
 
 **`Membuat Menu Admin`**
 
@@ -256,7 +256,7 @@ return view('artikel/admin_index', compact('artikel', 'title'));
 ```
 ![11_Lab11Web](Gambar/44.Gambar_Controller_Artikel_admin_index.jpg)
 
-Gambar 41.Controller_Artikel_admin_index
+Gambar 14.Controller_Artikel_admin_index
 
 Selanjutnya buat view untuk tampilan admin dengan nama ***admin_index.php***
 ```
@@ -308,7 +308,7 @@ $row['id']);?>">Hapus</a>
 ![11_Lab11Web](Gambar/45.Gambar_admin_index.jpg)
 ![11_Lab11Web](Gambar/45.Gambar_admin_index-1.jpg)
 
-Gambar 42.admin_index.php
+Gambar 15.admin_index.php
 
 Selanjutnya kita buat template halaman admin **di app/Views/template** dengan nama :<br>
 `admin_header.php`
@@ -330,13 +330,13 @@ $routes->get('artikel/delete/(:any)', 'Artikel::delete/$1');
 ```
 ![11_Lab11Web](Gambar/46.Gambar_routing.jpg)
 
-Gambar 43.add routing.php
+Gambar 16.add routing.php
 
 Akses menu admin dengan url http://localhost:8080/admin/artikel
 
 ![11_Lab11Web](Gambar/50.Gambar_Admin_index.jpg)
 
-Gambar 44.Admin index
+Gambar 17.Admin index
 
 **`Menambah Data Artikel`**
 
@@ -364,7 +364,7 @@ return view('artikel/form_add', compact('title'));
 ```
 ![11_Lab11Web](Gambar/51.Gambar_Controller_add.jpg)
 
-Gambar 45.Controller_add
+Gambar 18.Controller_add
 
 Kemudian buat view untuk form tambah dengan nama **form_add.php**
 ```
@@ -383,13 +383,13 @@ Kemudian buat view untuk form tambah dengan nama **form_add.php**
 ```
 ![11_Lab11Web](Gambar/52.Gambar_form_add.php.jpg)
 
-Gambar 46.form_add.php
+Gambar 19.form_add.php
 
 Akses menu admin dengan url http://localhost:8080/admin/artikel/add
 
 ![11_Lab11Web](Gambar/53.Gambar_Tambah_Artikel.jpg)
 
-Gambar 47.Tambah Artikel
+Gambar 20.Tambah Artikel
 
 **`Mengubah Data`**
 
@@ -418,7 +418,7 @@ return view('artikel/form_edit', compact('title', 'data'));
 ```
 ![11_Lab11Web](Gambar/54.Gambar_Controller_edit.jpg)
 
-Gambar 48.Controller_Function edit
+Gambar 21.Controller_Function edit
 
 Kemudian buat view untuk form tambah dengan nama ***form_edit.php***
 ```
@@ -438,13 +438,13 @@ $data['isi'];?></textarea>
 ```
 ![11_Lab11Web](Gambar/55.Gambar_form_edit.php.jpg)
 
-Gambar 49.form_edit.php
+Gambar 22.form_edit.php
 
 Akses menu admin dengan url http://localhost:8080/admin/artikel/edit/1
 
 ![11_Lab11Web](Gambar/56.Gambar_Ubah_Artikel.jpg)
 
-Gambar 50.Ubah Artikel
+Gambar 23.Ubah Artikel
 
 **`Menghapus Data`**
 
@@ -459,7 +459,7 @@ return redirect('admin/artikel');
 ```
 ![11_Lab11Web](Gambar/57.Gambar_Controller_delete.jpg)
 
-Gambar 51.Controller_delete
+Gambar 24.Controller_delete
 
 <hr>
 
@@ -479,15 +479,15 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel/add
 
 ![11_Lab11Web](Gambar/58.Gambar_tambah_artikel.jpg)
 
-Gambar 52.Tambah_artikel ketiga
+Gambar 25.Tambah_artikel ketiga
 
 ![11_Lab11Web](Gambar/59.Gambar_Tampilan_tambah_artikel.jpg)
 
-Gambar 53.Tampilan_tambah_artikel ketiga
+Gambar 26.Tampilan_tambah_artikel ketiga
 
 ![11_Lab11Web](Gambar/60.Gambar_Tampilan_tambah_artikel-1.jpg)
 
-Gambar 54.Tampilan_Portal Berita_artikel ketiga
+Gambar 27.Tampilan_Portal Berita_artikel ketiga
 
 
 **`Edit Artikel`**
@@ -496,7 +496,7 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel/edit/1
 
 ![11_Lab11Web](Gambar/61.Gambar_Tampilan_edit_artikel-1.jpg)
 
-Gambar 55.Edit_artikel
+Gambar 28.Edit_artikel
 
 
 
@@ -506,11 +506,11 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel/
 
 ![11_Lab11Web](Gambar/63.Gambar_Tampilan_hapus.jpg)
 
-Gambar 58.Hapus_artikel
+Gambar 29.Hapus_artikel
 
 ![11_Lab11Web](Gambar/63.Gambar_Tampilan_hapus-1.jpg)
 
-Gambar 59.Tampilan_Hapus_artikel
+Gambar 30.Tampilan_Hapus_artikel
 
 
 - Selesai
