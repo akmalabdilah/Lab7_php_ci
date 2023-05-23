@@ -1,3 +1,4 @@
+
 # TUGAS PERTEMUAN 12
 
 <hr>
@@ -130,7 +131,7 @@ Gambar 33.index.php
 
 Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
 
-![11_Lab11Web](Gambar/38.Gambar_TampilanWeb.Artikel.JPG)
+![11_Lab11Web](Gambar/38.Gambar_TampilanWeb.Artikel.jpg)
 
 Gambar 34.Tampilan Web.Artikel
 
