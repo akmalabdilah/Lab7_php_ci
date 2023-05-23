@@ -1,0 +1,8 @@
+CRITICAL - 2022-06-13 08:37:02 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('artikel')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('artikel')
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

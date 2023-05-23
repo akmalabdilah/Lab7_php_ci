@@ -1,0 +1,16 @@
+CRITICAL - 2022-06-19 07:44:47 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\lab11_php_ci\ci4\app\Controllers\Artikel.php on line 49
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\app\Controllers\Artikel.php(49): url_title(NULL)
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->add()
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-19 07:47:37 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\lab11_php_ci\ci4\app\Controllers\Artikel.php on line 49
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\app\Controllers\Artikel.php(49): url_title(NULL)
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->add()
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
